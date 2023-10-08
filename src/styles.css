@@ -1,16 +1,22 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
 .App {
   font-family: sans-serif;
-
-  position: absolute;
-  top: -35%;
-  left: 5%;
-  transform: translate(50%, 50%);
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  width: 600px;
 }
 
 .Title-wrapper {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
+
+/* Rest of your styles remain the same */
