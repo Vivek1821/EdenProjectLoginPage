@@ -1,0 +1,33 @@
+.cards {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+}
+
+.planning-card {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.planning-card-discription {
+  margin: 10px 20px 10px 20px;
+}
+
+.card-title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.card-para {
+  width: 100px;
+}
+
+.selected {
+  background-color: rgb(18, 119, 126);
+  color: white;
+}
+
+
